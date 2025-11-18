@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Aesthetic Kamu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="logo">✨ Nama Kamu ✨</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h2>Hai! Aku <span>Nama Kamu</span></h2>
+      <p>Pelajar yang suka belajar desain, coding, dan hal-hal aesthetic 💕</p>
+      <a href="#portfolio" class="btn">Lihat Karya</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>🌼 Tentang Aku</h2>
+    <p>Aku pelajar yang tertarik dengan dunia teknologi dan seni. Aku suka membuat website dengan gaya lembut dan warna pastel.</p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>🎨 Portfolio</h2>
+    <div class="grid">
+      <div class="card">Proyek 1</div>
+      <div class="card">Proyek 2</div>
+      <div class="card">Proyek 3</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>📬 Hubungi Aku</h2>
+    <p>Email: <a href="mailto:emailkamu@gmail.com">emailkamu@gmail.com</a></p>
+    <div class="socials">
+      <a href="#">Instagram</a> | <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nama Kamu | Dibuat dengan 💖 dan pastel vibes</p>
+  </footer>
+</body>
+</html>
+
